@@ -31,9 +31,10 @@
   bottom: -8px;
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .content__description { font-size: 13px; }
-   .menu__link {
+
+    .menu__link {
     display: none;
   }
 
@@ -44,6 +45,7 @@
     cursor: pointer;
   }
 }
+
 .content {
 padding-top: 10px;
 }
