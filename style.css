@@ -12,8 +12,8 @@
   position: relative;
 }
 
-.burger:before,
-.burger:after {
+.burger::before,
+.burger::after {
   content: '';
   display: block;
   width: 30px;
@@ -23,17 +23,17 @@
   background-color: #616161;
 }
 
-.burger:before {
+.burger::before {
   top: -8px;
 }
 
-.burger:after {
+.burger::after {
   bottom: -8px;
 }
 
 @media (max-width:700px) {
   .content__description { font-size: 13px; }
-  .menu__link {
+   .menu__link {
     display: none;
   }
 
@@ -47,3 +47,4 @@
 .content {
 padding-top: 10px;
 }
+ 
